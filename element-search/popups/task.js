@@ -4,6 +4,7 @@ modalMainList.classList.add('modal_active');
 const modalSuccessList = document.querySelector('#modal_success');
 modalMainList.querySelector('.show-success').onclick = () => {
   modalSuccessList.classList.add('modal_active');
+  modalMainList.classList.remove('modal_active');
 }
 
 const modalList = document.querySelectorAll('.modal');
