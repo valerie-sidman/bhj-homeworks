@@ -1,6 +1,10 @@
+body {
+  display: flex;
+}
+
 .dropdown {
   list-style-type: none;
-  padding: 0;
+  padding: 15px;
   margin: 0;
   position: relative;
   font-family: Helvetica;
